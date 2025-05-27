@@ -931,14 +931,14 @@
   let timer;
 
   function showCustomModal() {
-    document.getElementById("customModal").style.display = "flex";
+    document.getElementById("customModal").classList.add("show");
   }
 
   function hideCustomModal() {
-    document.getElementById("customModal").style.display = "none";
+    document.getElementById("customModal").classList.remove("show");
   }
 
-  // Listen for scroll start
+  // Show modal 10 seconds after user scrolls
   window.addEventListener("scroll", () => {
     if (!hasScrolled) {
       hasScrolled = true;
@@ -946,9 +946,11 @@
     }
   });
 
-  // Close modal button
+  // Close modal on X click
   document.getElementById("customModalClose").addEventListener("click", hideCustomModal);
 </script>
+
+
 
 </body>
 </html>
