@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Homepage for L&G website.">
+  <meta name="author" content="Your Name">
+
+  <title>Главная страница | L&G</title>
+
+  <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+
+<!-- NavBar-->
+<!-- Bootstrap 5 Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+  <div class="container-fluid">
+    <!-- Logo and brand -->
+    <a class="navbar-brand d-flex align-items-center" href="#home">
+      <img src="images/logo2.jpg" alt="logo" width="100%" height="50px" class="d-inline-block ">
+      Ladies &amp; Gentlemen
+    </a>
+
+    <!-- Toggle button for offcanvas --> 
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links (desktop) -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#ComeToUs"><button class="view-profile-btn">Присоединяйтесь к нам</button></a></li>
+        <li class="nav-item"><a class="nav-link">+7 (913) 712-74-44</a></li>
+        <li class="nav-item"><a class="nav-link ms-4" href="#carouselVideoExample">Дома</a></li>
+        <li class="nav-item"><a class="nav-link ms-4" href="#about">О нас</a></li>
+        <li class="nav-item"><a class="nav-link ms-4" href="#team">Наша Команда</a></li>
+        <li class="nav-item"><a class="nav-link ms-4" href="#photo">Фотогалерия</a></li>
+        <li class="nav-item"><a class="nav-link ms-4" href="#contact">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Offcanvas sidebar (mobile menu) -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+  <div class="offcanvas-header">
+     <h5 class="offcanvas-title" id="mobileMenuLabel">+7 (913) 712-74-44<br> Меню</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+  </div>
+  
+  <div class="offcanvas-body">
+    <ul class="navbar-nav">
+      
+      <li class="nav-item"><a class="nav-link text-muted" href="#carouselVideoExample" data-bs-dismiss="offcanvas">Дома</a></li>
+      <li class="nav-item"><a class="nav-link text-muted" href="#about" data-bs-dismiss="offcanvas">О нас</a></li>
+      <li class="nav-item"><a class="nav-link text-muted" href="#team" data-bs-dismiss="offcanvas">Наша Команда</a></li>
+      <li class="nav-item"><a class="nav-link text-muted" href="#photo" data-bs-dismiss="offcanvas">Фотогалерия</a></li>
+      <li class="nav-item"><a class="nav-link text-muted" href="#contact" data-bs-dismiss="offcanvas">Контакты</a></li>
+      <li class="nav-item"><a class="nav-link text-muted" href="#ComeToUs" data-bs-dismiss="offcanvas"><button class="view-profile-btn">Присоединяйтесь к нам</button></a></li>
+    </ul>
+  </div>
+</div>
+
+  <!--NavBar Ending-->
+
+
+
+  <!--Carousel Video Starts-->
+  
+  <div
+  id="carouselVideoExample"
+  class="carousel slide"
+  data-bs-ride="carousel">
+
+  <!-- Indicators -->
+
+
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <video class="w-100" autoplay loop muted >
+        <source src="Videos/kids.mp4" type="video/mp4" />
+      </video>
+      <div class="carousel-caption d-block">
+        <h1 class = "text-center fw-bolder fs-1">Добро Пожаловать в Ladies and Gentlemen детский сад</h1>
+      
+      </div>
+    </div>
+</div>
+</div>
+
+<!--carousel Video end-->
+
+<!--About us Starts-->
+<div class="container shadow bg-white rounded p-4 my-4 features" id="about">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-lg-4 mb-4">
+      <img src="images/5.jpg" alt="..." class="img-fluid border-0 rounded">
+      <h1 class="text-center  text-muted  fw-bold fs-4">Питание</h1>
+      <p class="text-center text-muted text-sm-start">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. </p>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 mb-4">
+      <img src="images/4.jpg" alt="..." class="img-fluid border-0 rounded ">
+       <h1 class="text-center text-muted  fw-bold fs-4">Безопасности</h1>
+        <p class="text-center text-muted text-sm-start">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. </p>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 mb-4">
+      <img src="images/3.jpg" alt="..." class="img-fluid border-0 rounded">
+       <h1 class="text-center text-muted  fw-bold fs-4">Воспитатели</h1>
+        <p class="text-center text-muted text-sm-start">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. </p>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 mb-4">
+      <img src="images/4.jpg" alt="..." class="img-fluid border-0 rounded">
+       <h1 class="text-center text-muted  fw-bold fs-4">Анлиский</h1>
+        <p class="text-center text-muted text-sm-start">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. </p>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 mb-4">
+      <img src="images/5.jpg" alt="..." class="img-fluid border-0 rounded">
+       <h1 class="text-center text-muted  fw-bold fs-4">Анлиский</h1>
+        <p class="text-center text-muted text-sm-start">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea.</p>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 mb-4">
+      <img src="images/3.jpg" alt="..." class="img-fluid border-0 rounded">
+      <div class=" d-block align-items-center">
+       <h1 class="text-center text-muted  fw-bold fs-4">Анлиский</h1>
+        <p class="text-center  text-muted text-sm-start">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea.</p>
+      </div>
+    </div>
+
+ 
+  </div>
+</div>
+
+<!--About us Ends-->
+
+<!--Our team text Starts -->
+
+<div class="d-flex justify-content-center align-items-center" id="team">
+  <h1 class="text-center fs-1 fw-bolder text-uppercase mt-5" >наша команда</h1>
+</div>
+
+<!--Our team text Ends -->
+
+<!--Our team head Starts -->
+<div class="container d-flex justify-content-center bg-transparent">
+   <div class="container-fluid shadow rounded p-4 my-4 bg-white ">
+  <div class="row align-items-center">
+    <!-- IMAGE COLUMN -->
+    <div class="col-12 col-sm-6 col-lg-6 text-center">
+      <img src="images/elizabeth.jpg" class="img-fluid rounded" alt="Elizabeth's photo">
+      <h1 class="fs-3">Elizabeth</h1>
+      <p>Управляющий садом</p>
+    </div>
+
+    <!-- TEXT COLUMN -->
+    <div class="col-12 col-sm-6 col-lg-6">
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean 
+      </p>
+      <a href="https://wa.me/79137127444?text=Здравствуйте%2C%20Элизабет!" target="_blank">
+        <button class="mt-2 view-profile-btn">Задать вопрос</button>
+      </a>
+
+    </div>
+  </div>
+</div>
+</div>
+<!--Our team head Ends -->
+
+
+<!--Our team  Starts -->
+
+<div class="container py-5 bg-white">
+  
+  <div class="row g-4 justify-content-center">
+    
+    <!-- Card 1 -->
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <img src="images/teacher1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-5">Виктория Григоревна</h5>
+          <p class="card-text text-muted">Воспитатель средней группы</p>
+          <button type="button" class="view-profile-btn" data-bs-toggle="modal" data-bs-target="#teacherModal1">
+            Просмотреть профиль
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <img src="images/teacher2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-5">Егор Сергеевич</h5>
+          <p class="card-text text-muted">Воспитатель старшей группы</p>
+        <button type="button" class="view-profile-btn" data-bs-toggle="modal" data-bs-target="#teacherModal2">
+            Просмотреть профиль
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 with modal button -->
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <img src="images/teacher.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-5">Алёна Уральская</h5>
+          <p class="card-text text-muted"> Ассистент Воспитатель средней группы</p>
+          <button type="button" class="view-profile-btn" data-bs-toggle="modal" data-bs-target="#teacherModal3">
+            Просмотреть профиль
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <img src="images/teacher.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-5">Алёна Уральская</h5>
+          <p class="card-text text-muted"> Ассистент Воспитатель средней группы</p>
+          <button type="button" class=" view-profile-btn" data-bs-toggle="modal" data-bs-target="#teacherModal4">
+           Просмотреть профиль
+          </button>      
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <img src="images/teacher1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-5">Виктория Григоревна</h5>
+          <p class="card-text text-muted">Воспитатель средней группы</p>
+          <button type="button" class="view-profile-btn" data-bs-toggle="modal" data-bs-target="#teacherModal5">
+            Просмотреть профиль
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <img src="images/teacher2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title   fs-5">Егор Сергеевич</h5>
+          <p class="card-text text-muted">Воспитатель старшей группы</p>
+          <button type="button" class="view-profile-btn" data-bs-toggle="modal" data-bs-target="#teacherModal6">
+            Просмотреть профиль
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal (placed outside cards) -->
+<div class="modal fade" id="teacherModal1" tabindex="-1" aria-labelledby="teacherModal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="teacherModal1Label">Виктория Григоревна</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+      </div>
+
+      <div class="modal-body">
+        <strong>Образование: </strong>Санкт -Петербургский Политехнический университет им. Петра Великого. Специальность — психолог-педагог.
+        <br>
+        <strong>Опыт работы:</strong>5 лет в частном детском саду воспитателем, 4 года вожатой в ДОЛ.
+        <br>
+        <strong>О себе: </strong>В детстве я, конечно, хотела быть учительницей, но только чтобы у меня было много разноцветных ручек. Но в старших классах школы у моей сестры родился ребёнок, и тогда я начала понимать, какой это космос. 
+        За столько лет работы я еще ни разу не встретила одинаковых детей. Самое удивительное в них — как тонко они чувствуют, как много замечают и помнят. Главное — не считать себя выше них, ведь, как говорил Януш Корчак: «Детей нет, есть люди».
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="teacherModal2" tabindex="-1" aria-labelledby="teacherModal2Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="teacherModal2Label">Егор Сергеевич</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+      </div>
+
+      <div class="modal-body">
+        <strong>Образование: </strong>Санкт -Петербургский Политехнический университет им. Петра Великого. Специальность — психолог-педагог.
+        <br>
+        <strong>Опыт работы:</strong>5 лет в частном детском саду воспитателем, 4 года вожатой в ДОЛ.
+        <br>
+        <strong>О себе: </strong>В детстве я, конечно, хотела быть учительницей, но только чтобы у меня было много разноцветных ручек. Но в старших классах школы у моей сестры родился ребёнок, и тогда я начала понимать, какой это космос. 
+        За столько лет работы я еще ни разу не встретила одинаковых детей. Самое удивительное в них — как тонко они чувствуют, как много замечают и помнят. Главное — не считать себя выше них, ведь, как говорил Януш Корчак: «Детей нет, есть люди».
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="teacherModal3" tabindex="-1" aria-labelledby="teacherModal3Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="teacherModal3Label">Алёна Уральская</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+      </div>
+
+      <div class="modal-body">
+        <strong>Образование: </strong>Санкт -Петербургский Политехнический университет им. Петра Великого. Специальность — психолог-педагог.
+        <br>
+        <strong>Опыт работы:</strong>5 лет в частном детском саду воспитателем, 4 года вожатой в ДОЛ.
+        <br>
+        <strong>О себе: </strong>В детстве я, конечно, хотела быть учительницей, но только чтобы у меня было много разноцветных ручек. Но в старших классах школы у моей сестры родился ребёнок, и тогда я начала понимать, какой это космос. 
+        За столько лет работы я еще ни разу не встретила одинаковых детей. Самое удивительное в них — как тонко они чувствуют, как много замечают и помнят. Главное — не считать себя выше них, ведь, как говорил Януш Корчак: «Детей нет, есть люди».
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="teacherModal4" tabindex="-1" aria-labelledby="teacherModal4Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="teacherModal4Label">Алёна Уральская</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+      </div>
+
+      <div class="modal-body">
+        <strong>Образование: </strong>Санкт -Петербургский Политехнический университет им. Петра Великого. Специальность — психолог-педагог.
+        <br>
+        <strong>Опыт работы:</strong>5 лет в частном детском саду воспитателем, 4 года вожатой в ДОЛ.
+        <br>
+        <strong>О себе: </strong>В детстве я, конечно, хотела быть учительницей, но только чтобы у меня было много разноцветных ручек. Но в старших классах школы у моей сестры родился ребёнок, и тогда я начала понимать, какой это космос. 
+        За столько лет работы я еще ни разу не встретила одинаковых детей. Самое удивительное в них — как тонко они чувствуют, как много замечают и помнят. Главное — не считать себя выше них, ведь, как говорил Януш Корчак: «Детей нет, есть люди».
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="teacherModal5" tabindex="-1" aria-labelledby="teacherModal5Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="teacherModal5Label">Виктория Григоревна</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+      </div>
+
+      <div class="modal-body">
+        <strong>Образование: </strong>Санкт -Петербургский Политехнический университет им. Петра Великого. Специальность — психолог-педагог.
+        <br>
+        <strong>Опыт работы:</strong>5 лет в частном детском саду воспитателем, 4 года вожатой в ДОЛ.
+        <br>
+        <strong>О себе: </strong>В детстве я, конечно, хотела быть учительницей, но только чтобы у меня было много разноцветных ручек. Но в старших классах школы у моей сестры родился ребёнок, и тогда я начала понимать, какой это космос. 
+        За столько лет работы я еще ни разу не встретила одинаковых детей. Самое удивительное в них — как тонко они чувствуют, как много замечают и помнят. Главное — не считать себя выше них, ведь, как говорил Януш Корчак: «Детей нет, есть люди».
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="teacherModal6" tabindex="-1" aria-labelledby="teacherModal6Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="teacherModal6Label">Егор Сергеевич</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+      </div>
+
+      <div class="modal-body">
+        <strong>Образование: </strong>Санкт -Петербургский Политехнический университет им. Петра Великого. Специальность — психолог-педагог.
+        <br>
+        <strong>Опыт работы:</strong>5 лет в частном детском саду воспитателем, 4 года вожатой в ДОЛ.
+        <br>
+        <strong>О себе: </strong>В детстве я, конечно, хотела быть учительницей, но только чтобы у меня было много разноцветных ручек. Но в старших классах школы у моей сестры родился ребёнок, и тогда я начала понимать, какой это космос. 
+        За столько лет работы я еще ни разу не встретила одинаковых детей. Самое удивительное в них — как тонко они чувствуют, как много замечают и помнят. Главное — не считать себя выше них, ведь, как говорил Януш Корчак: «Детей нет, есть люди».
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--Our team  Ends-->
+
+
+<!--Pricing Starts -->
+<div class=" container bg-light" id="ComeToUs">
+    <div class="container-sm py-5">
+        <div class="row text-center mb-5">
+            <div class="col">
+                <h2 class="display-4 fw-bold">Выберите Абонементы</h2>
+                <p class="text-muted fw-bold fs-5">Выбирайте самый лучший абонементы для вас</p>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+            <!-- Basic Plan -->
+            <div class="col">
+                <div class="card h-100 pricing-card shadow-sm">
+                    <div class="card-body p-5">
+                        <span class="badge gradient-custom text-white popular-badge px-4 py-2">Deluxe</span>
+                        <h5 class="card-title text-muted text-uppercase mb-4">Абонимент полного дня</h5>
+                        <h1 class="display-5 mb-4">44000p<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled feature-list text-start">
+                          <!-- 'text-start' ensures all list content is aligned to the left,
+                              even if a parent div is using 'text-center'. -->
+                          
+                          <li><i class="bi bi-check2 text-success "></i>Пробный день <strong>бесплатно</strong></li>
+                          <li><i class="bi bi-check2 text-success "></i>График посещения понедельник–пятница с 8:00–19:00</li>
+                          <li><i class="bi bi-check2 text-success "></i>4-х разовое питание</li>
+                          <li><i class="bi bi-check2 text-success "></i>Комплекс развивающих занятий для детей от 1,5 до 7 лет входит</li>
+                          <li><i class="bi bi-check2 text-success"></i>Еженедельный осмотр педиатра</li>
+                          
+                          <!-- '' (margin-end) gives space between the icon and the text. -->
+                      </ul>
+
+                        <button class="btn gradient-custom text-white btn-lg w-100 mt-auto">начать</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pro Plan -->
+            <div class="col">
+                <div class="card h-100 pricing-card shadow position-relative">
+                    
+                    <div class="card-body p-5">
+                        <span class="badge gradient-custom text-white popular-badge px-4 py-2">Popular</span>
+                        <h5 class="card-title text-muted text-uppercase mb-4">Абонимент неполного дня</h5>
+                        <h1 class="display-5 mb-4">30000p<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled feature-list text-start">
+                            <li><i class="bi bi-check2 text-success "></i>Пробный день <strong>бесплатно</strong></li>
+                            <li><i class="bi bi-check2 text-success "></i> График посещения понедельник-пятница с 8:00-13:00 и с 15:00-19:00</li>
+                            <li><i class="bi bi-check2 text-success "></i>2-х разовое питание</li>
+                            <li><i class="bi bi-check2 text-success "></i>Комплекс развивающих занятий для детей от 1,5 до 7 лет входит</li>
+                            <li><i class="bi bi-check2 text-success "></i>-Еженедельный осмотр педиатра</li>
+                        </ul>
+
+                       
+
+
+
+
+                        <button class="btn gradient-custom text-white btn-lg w-100 mt-auto">начать</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Enterprise Plan -->
+            <div class="col">
+                <div class="card h-100 pricing-card shadow-sm">
+                  <span class="badge gradient-custom text-white popular-badge px-4 py-2">Бюджетный</span>
+                    <div class="card-body p-5">
+                        <h5 class="card-title text-muted text-uppercase mb-4">Абонимент полного дня 12 посещений</h5>
+                        <h1 class="display-5 mb-4">28000p<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled feature-list text-start">
+                            <li><i class="bi bi-check2 text-success "></i>Пробный день <strong>бесплатно</strong></li>
+                            <li><i class="bi bi-check2 text-success "></i>-График посещения понедельник-пятница с 8:00-19:00</li>
+                            <li><i class="bi bi-check2 text-success "></i>-4-х разовое питание</li>
+                            <li><i class="bi bi-check2 text-success "></i>-Комплекс развивающих занятий для детей от 1,5 до 7 лет входит в стоимость абонемента</li>
+                            <li><i class="bi bi-check2 text-success "></i>-Еженедельный осмотр педиатра</li>
+                        </ul>
+
+                        
+
+
+
+
+                        <button class="btn gradient-custom text-white btn-lg w-100 mt-auto">начать</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 pricing-card shadow-sm">
+                    <div class="card-body p-5">
+                        <span class="badge gradient-custom text-white popular-badge px-4 py-2">Оптимальный</span>
+                        <h5 class="card-title text-muted text-uppercase mb-4">Абонимент полного дня 16 посещений</h5>
+                        <h1 class="display-5 mb-4">36000p<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled feature-list text-start">
+                            <li><i class="bi bi-check2 text-success "></i>Пробный день - <strong>бесплатно</strong></li>
+                            <li><i class="bi bi-check2 text-success "></i>-График посещения понедельник-пятница с 8:00-19:00</li>
+                            <li><i class="bi bi-check2 text-success "></i>-4-х разовое питание</li>
+                            <li><i class="bi bi-check2 text-success "></i>-Комплекс развивающих занятий для детей от 1,5 до 7 лет входит в стоимость абонемента</li>
+                            <li><i class="bi bi-check2 text-success "></i>-Еженедельный осмотр педиатра</li>
+                        </ul>
+
+                        
+
+
+
+                        <button class="btn gradient-custom text-white btn-lg w-100 mt-auto">начать</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--Pricing Ends -->
+
+  <div class="d-flex justify-content-center align-items-center" id="photo">
+    <h1 class="text-center fs-1 fw-bolder text-uppercase mt-5" >Наша Фотогалерия</h1>
+  </div>
+<div class ="container">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner .carousel-inner2">
+      <div class="carousel-item active">
+        <img src="images/3.jpg" class="d-block w-100 img-fluid rounded" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/2.jpg" class="d-block w-100 img-fluid rounded" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/3.jpg" class="d-block w-100 img-fluid rounded" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/4.jpg" class="d-block w-100 img-fluid rounded" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/3.jpg" class="d-block w-100 img-fluid rounded" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/5.jpg" class="d-block w-100 img-fluid rounded" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/4.jpg" class="d-block w-100 img-fluid rounded" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/2.jpg" class="d-block w-100 img-fluid rounded" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon  bg-dark rounded-circle p-3" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon  bg-dark rounded-circle p-3" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+
+<!-- Carousel wrapper -->
+
+
+
+<div class="container my-4 bg-white" id="contact">
+  <div class="row">
+      <div class="col-12 col-lg-6 mb-4 overflow-hidden">
+  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9df82000b1c360f362ddf5e706f0cd114acf06b7cf54b421a87ae1e83cb34073&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+
+</div>
+
+
+    <div class="col-12  col-lg-6 mb-4">
+    <h1 class="text-center fw-bolder fs-1">Записивайте на  персональной экскурсии</h1>
+   <form>
+  <!-- Name -->
+  <div class="form-group mb-3">
+    <label for="name">Имя</label>
+    <input type="text" class="form-control" id="name" placeholder="Введите свое имя"
+           pattern="[A-Za-z\s]+" title="Only letters and spaces are allowed" required>
+  </div>
+
+  <!-- Phone -->
+  <div class="form-group mb-3">
+    <label for="phone">Номер Телефона</label>
+    <input type="tel" class="form-control" id="phone" placeholder="Введите свой номер телефона"
+           pattern="^\+?[0-9]{10,15}$" title="Enter a valid phone number with 10–15 digits" required>
+  </div>
+
+  <!-- Email (Gmail only) -->
+  <div class="form-group mb-3">
+    <label for="exampleInputEmail1">Почта</label>
+    <input type="email" class="form-control" id="exampleInputEmail1"
+           placeholder="Введите свой адрес электронной почты"
+           pattern="[a-zA-Z0-9._%+-]+@(gmail\.com|mail\.ru)$"
+           title="Разрешены только адреса электронной почты"
+           required>
+    <small id="emailHelp" class="form-text text-muted">
+    Мы никогда не передадим вашу электронную почту кому-либо еще.
+    </small>
+  </div>
+
+  <button type="submit" class="btn gradient-custom text-white btn-lg w-100 mt-auto">Записаться</button>
+</form>
+
+    </div>
+  </div>
+</div>
+
+
+<footer class="bg-white text-dark pt-5 pb-3 border-top">
+  <div class="container">
+    <div class="row">
+
+      <!-- Logo & Brand -->
+      <div class="col-md-3 mb-4">
+        <a href="#home" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+          <img src="images/logo2.jpg" alt="logo" style="height: 50px; width: auto;" class="me-2">
+          <span class="fs-5 fw-semibold">Ladies &amp; Gentlemen</span>
+        </a>
+        <p class="text-muted small">Детский сад и центр раннего развития</p>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="col-md-3 mb-4">
+        <h5 class="mb-3">Навигация</h5>
+        <ul class="list-unstyled">
+          <li><a href="#carouselVideoExample" class="text-dark text-decoration-none">Дома</a></li>
+          <li><a href="#about" class="text-dark text-decoration-none">О нас</a></li>
+          <li><a href="#team" class="text-dark text-decoration-none">Наша Команда</a></li>
+          <li><a href="#photo" class="text-dark text-decoration-none">Фотогалерия</a></li>
+          <li><a href="#contact" class="text-dark text-decoration-none">Контакты</a></li>
+          <li><a href="#ComeToUs" class="text-dark text-decoration-none">Присоединяйтесь к нам</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Us -->
+      <div class="col-md-3 mb-4">
+        <h5 class="mb-3">Связаться с нами</h5>
+        <address class="text-muted">
+          ул. Восстания 32<br>
+          г. Санкт-Петербург, Россия<br>
+          <br>
+          <a href="tel:+79137127444" class="text-dark text-decoration-none">+7 (913) 712-74-44</a><br>
+          <a href="mailto:info@yourwebsite.ru" class="text-dark text-decoration-none">info@yourwebsite.ru</a>
+        </address>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-md-3 mb-4">
+        <h5 class="mb-3">Следуйте за нами</h5>
+        <ul class="list-inline">
+          <li class="list-inline-item me-3">
+            <a href="https://vk.com/yourprofile" target="_blank" class="text-dark fs-4" aria-label="VK">
+              <i class="bi bi-vk"></i> <!-- Bootstrap Icons VK -->
+            </a>
+          </li>
+          <li class="list-inline-item me-3">
+            <a href="https://t.me/yourprofile" target="_blank" class="text-dark fs-4" aria-label="Telegram">
+              <i class="bi bi-telegram"></i> <!-- Bootstrap Icons Telegram -->
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://wa.me/79137127444" target="_blank" class="text-dark fs-4" aria-label="WhatsApp">
+              <i class="bi bi-whatsapp"></i> <!-- Bootstrap Icons WhatsApp -->
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="d-flex justify-content-center small text-muted">
+      © 2025 Rimven Nansel Peter. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

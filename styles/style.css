@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* NAVBAR  BEGINNING */
+.navbar-brand img {
+  object-fit: contain;
+}
+
+/* NAVBAR  ENDING */
+
+
+
+
+
+/* ABOUT OUR KINDERGARTEN */
+
+.features{
+  background-color: aliceblue;
+  height: 100%;
+  width: 100%;
+}
+
+/* ABOUT OUR KINDERGARTEN ENDING*/
+
+/* PRICES */
+
+.pricing-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.feature-list li {
+    margin-bottom: 0.8rem;
+    color: #6c757d;
+}
+
+.popular-badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    border-radius: 20px;
+}
+
+.gradient-custom {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+}
+
+@media (min-width: 768px) and (max-width: 1194px) {
+  .row-cols-md-2 > .col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* PRICES ENDING */
+
+
+
+/* OUR TEAM BUTTONS */
+.view-profile-btn{
+  color: black;
+  background-color: white;
+  border:1px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+}
+.view-profile-btn:hover{
+ background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  border-color:none;
+  color: white;
+}
+.view-profile-btn:focus,
+.view-profile-btn:active {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: white;
+  border-color: none;
+  box-shadow: none;
+}
+/* OUR TEAM BUTTONS END  */
+
+/* PHOTOGALLERY STARTS */
+
+ .carousel-inner-2 {
+    height: 400px; /* or any height you want */
+  }
+
+  .carousel-inner-2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+/* PHOTOGALLERY ENDS */
+  
